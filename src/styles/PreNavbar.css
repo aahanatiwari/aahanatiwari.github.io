@@ -1,0 +1,40 @@
+.preNav{
+    background-color: rgb(29,28,28);
+    color: white;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    /* 5fr is 20%, 2fr is 50%(2 parts of a whole) */
+}
+
+.preNav > div {
+    padding: 0 .8vmax;
+    display: flex;
+    align-items: center;
+}
+
+.preNav > div > span {
+    color: rgba(180,180,180,.644);
+    font-size: .8vmax;
+    font-weight: 100;
+}
+
+.preNav > div > svg {
+    fill: rgba(180,180,180,.644);
+}
+
+.preNav > div > svg:hover {
+    fill: white;
+}
+
+.preNav > div > a {
+    color: rgba(180,180,180,.644);
+    font-size: .9vmax;
+    font-weight: 300;
+    font-family: 'Gill Sans','Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1vmax;
+    text-decoration: none;  /*not underlined*/
+}
+
+.preNav > div > a:hover {
+    color: white;
+}
